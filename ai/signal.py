@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 import cv2
-
+//
 model = YOLO("yolov8n.pt")
 cap = cv2.VideoCapture("traffic_video.mp4")
 
