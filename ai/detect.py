@@ -2,6 +2,7 @@ from ultralytics import YOLO
 import cv2
 
 
+
 vehicle_model = YOLO('yolov8n.pt')           # General object detection (vehicles)
 helmet_model  = YOLO('helmet-detection.pt')  # Custom helmet detector
 
